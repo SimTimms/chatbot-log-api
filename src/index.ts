@@ -7,8 +7,6 @@ import typeDefs from "./graphql/schemas/typeDefs";
 dotenv.config();
 const startServer = async (): Promise<void> => {
   try {
-    // Connect to the database
-
     if (!process.env.PORT) {
       throw new Error("PORT is not defined in environment variables");
     }
