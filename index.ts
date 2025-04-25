@@ -1,9 +1,9 @@
 import dotenv from 'dotenv';
-import connectDB from './api/mongodb/connection';
+import connectDB from './app/mongodb/connection';
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
-import resolvers from './api/graphql/resolvers/resolvers';
-import typeDefs from './api/graphql/schemas/typeDefs';
+import resolvers from './app/graphql/resolvers/resolvers';
+import typeDefs from './app/graphql/schemas/typeDefs';
 dotenv.config();
 
 const startServer = async (): Promise<void> => {
