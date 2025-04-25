@@ -16,6 +16,6 @@
       "@/*": ["api/*"]
     }
   },
-  "include": ["api/**/*", "api/index.ts"],
+  "include": ["api/**/*", "index.ts"],
   "exclude": ["node_modules", "dist"]
 } 
