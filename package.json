@@ -2,14 +2,12 @@
   "name": "chatbot-log-api",
   "version": "0.0.1",
   "description": "An API for logging and retrieving chatbot conversations.",
-  "main": "index.js",
   "engines": {
     "node": "20.x"
   },
   "scripts": {
     "dev": "nodemon index.ts",
-    "start": "node dist/app/index.js",
-    "build": "rimraf dist && tsc",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
