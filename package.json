@@ -22,7 +22,6 @@
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/node": "^22.13.16",
-    "dotenv": "^16.4.7",
     "eslint": "^9.23.0",
     "nodemon": "^3.1.9",
     "npm": "^11.2.0",
@@ -31,6 +30,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "@apollo/server": "^4.11.3",
     "axios": "^1.8.4",
     "body-parser": "^2.2.0",
