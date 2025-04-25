@@ -4,11 +4,9 @@
   "description": "An API for logging and retrieving chatbot conversations.",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon api/index.ts",
     "start": "node dist/index.js",
     "build": "rimraf dist && tsc",
-    "ts.check": "tsc --project tsconfig.json",
-    "add-build": "git add dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
